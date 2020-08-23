@@ -1,0 +1,244 @@
+body{
+    background: #262626;
+}
+.div{
+    background: #fff;
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+    position: relative;
+    animation: myanimation;
+    transition-property: all;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+}
+@keyframes myanimation{
+    0%{
+        background: #fff; left: 0px; top: 0px;
+    }
+    25%{
+        background: #467809;
+        left: 20px;
+        top: 0px;
+        padding: 20px;
+        border-radius: 25%;
+
+    }
+    50%{
+        background: red;
+        left: 20px;
+        top: 50px;
+        padding: 40px;
+        border-radius: 50%;
+    }
+    75%{
+        background: #865386;
+        left: 0px;
+        top: 40px;
+        padding: 20px;
+        border-radius: 100%;
+    }
+    100%{
+        background: #fff;
+        left: 0px;
+        top: 0px;
+        padding: 0px;
+    }  
+}
+.trans{
+    background: #fff;
+    height: 30px;
+    width: 30px;
+    top: 20px;
+    left: 200px;
+    position: relative;
+    animation: mybox;
+    transition-property: all;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes mybox{
+    0%{
+        background: #fff; left: 0px; top: 0px;
+    }
+    25%{
+        background: rgb(238, 9, 143);
+        left: 50px;
+        top: 0px;
+        padding: 20px;
+        border-radius: 25%;
+
+    }
+    50%{
+        background: green;
+        left: 120px;
+        top: 10px;
+        padding: 40px;
+        border-radius: 50%;
+    }
+    75%{
+        background: blue;
+        left: 0px;
+        top: 300px;
+        padding: 20px;
+        border-radius: 100%;
+    }
+    100%{
+        background: #fff;
+        left: 0px;
+        top: 0px;
+        padding: 0px;
+    }
+}
+.div-1{
+    background: blue;
+    height: 30px;
+    width: 30px;
+    top: 20px;
+    left: 200px;
+    margin-bottom: 30px;
+    position: relative;
+    animation: div-1;
+    transition-property: all;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+@keyframes div-1{
+    0%{
+        background:  blue; left: 0px; top: 0px;
+    }
+    25%{
+        background: orange;
+        left: 20px;
+        top: 0px;
+        padding: 20px;
+        border-radius: 0px;
+
+    }
+    50%{
+        background: plum;
+        left: 50px;
+        top: 69px;
+        padding: 40px;
+        border-radius: 0px;
+    }
+    75%{
+        background: azure;
+        left: 0px;
+        top: 300px;
+        padding: 20px;
+        border-radius: 100%;
+    }
+    100%{
+        background: #fff;
+        left: 0px;
+        top: 0px;
+        padding: 0px;
+    }
+}
+.trans-2{
+    background: #fff;
+    height: 30px;
+    width: 30px;
+    top: 20px;
+    left: 200px;
+    position: relative;
+    animation: trans-2;
+    transition-property: all;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: reverse
+}
+@keyframes trans-2{
+    0%{
+        background:  blue; left: 0px; top: 0px;
+    }
+    25%{
+        background: orange;
+        left: 50px;
+        top: 20px;
+        padding: 20px;
+        border-radius: 0px;
+
+    }
+    50%{
+        background: yellow;
+        left: 60px;
+        top: 70px;
+        padding: 50px;
+        border-radius: 0px;
+    }
+    75%{
+        background: paleturquoise;
+        left: 0px;
+        top: 60px;
+        padding: 20px;
+        border-radius: 100%;
+    }
+    100%{
+        background: #fff;
+        left: 0px;
+        top: 0px;
+        padding: 0px;
+    }
+}
+
+.div-2{
+    background: #fff;
+    height: 30px;
+    width: 30px;
+    top: 20px;
+    left: 100px;
+    position: relative;
+    animation: div-2;
+    transition-property: all;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes div-2{
+    0%{
+        background:  blue; left: 0px; top: 0px;
+    }
+    25%{
+        background: orange;
+        left: 0px;
+        top: 0px;
+        padding: 20px;
+        border-radius: 0px;
+
+    }
+    50%{
+        background: plum;
+        left: 0px;
+        top: 50px;
+        padding: 20px;
+        border-radius: 0px;
+    }
+    75%{
+        background: azure;
+        left: 0px;
+        top: 20px;
+        padding: 20px;
+        border-radius: 100%;
+    }
+    100%{
+        background: #fff;
+        left: 0px;
+        top: 0px;
+        padding: 0px;
+    }
+}
