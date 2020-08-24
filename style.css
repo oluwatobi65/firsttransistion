@@ -22,7 +22,7 @@ body{
     }
     25%{
         background: #467809;
-        left: 20px;
+        left: 200px;
         top: 0px;
         padding: 20px;
         border-radius: 25%;
@@ -30,7 +30,7 @@ body{
     }
     50%{
         background: red;
-        left: 20px;
+        left: 200px;
         top: 50px;
         padding: 40px;
         border-radius: 50%;
@@ -38,7 +38,7 @@ body{
     75%{
         background: #865386;
         left: 0px;
-        top: 40px;
+        top: 60px;
         padding: 20px;
         border-radius: 100%;
     }
@@ -70,7 +70,7 @@ body{
     }
     25%{
         background: rgb(238, 9, 143);
-        left: 50px;
+        left: 200px;
         top: 0px;
         padding: 20px;
         border-radius: 25%;
@@ -78,15 +78,15 @@ body{
     }
     50%{
         background: green;
-        left: 120px;
-        top: 10px;
+        left: 300px;
+        top: 50px;
         padding: 40px;
         border-radius: 50%;
     }
     75%{
         background: blue;
         left: 0px;
-        top: 300px;
+        top: 50px;
         padding: 20px;
         border-radius: 100%;
     }
@@ -118,7 +118,7 @@ body{
     }
     25%{
         background: orange;
-        left: 20px;
+        left: 200px;
         top: 0px;
         padding: 20px;
         border-radius: 0px;
@@ -126,8 +126,8 @@ body{
     }
     50%{
         background: plum;
-        left: 50px;
-        top: 69px;
+        left: 200px;
+        top: 100px;
         padding: 40px;
         border-radius: 0px;
     }
@@ -166,23 +166,23 @@ body{
     }
     25%{
         background: orange;
-        left: 50px;
-        top: 20px;
+        left: 300px;
+        top: 50px;
         padding: 20px;
         border-radius: 0px;
 
     }
     50%{
         background: yellow;
-        left: 60px;
-        top: 70px;
+        left: 350px;
+        top: 80px;
         padding: 50px;
         border-radius: 0px;
     }
     75%{
         background: paleturquoise;
         left: 0px;
-        top: 60px;
+        top: 50px;
         padding: 20px;
         border-radius: 100%;
     }
